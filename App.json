@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "UniPortal",
+    "slug": "student-portal",
+    "version": "1.0.0",
+   
+
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "student-portal",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1A1D3A"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.yourcompany.studentportal"
+    },
+    "android": {
+      "package": "com.yourcompany.studentportal",  
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#1A1D3A"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://replit.com/"
+        }
+      ],
+      "expo-font"
+      
+    ],
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
+
+
